@@ -11,7 +11,7 @@ function App() {
         <div className="flex items-center space-x-2">
           <Input
             type="text"
-            placeholder="Search..."
+            placeholder="Search for Movies..."
             className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-blue-500 w-96 "
           />
           <Button variant={"outline"}>Search</Button>
