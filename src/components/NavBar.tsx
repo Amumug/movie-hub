@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="flex justify-between ">
         <div className="flex items-center space-x-2">
           <img src={logo} alt="" />
-          <p className="">AMovies</p>
+          <p className="">AMovie</p>
           <Input
             type="text"
             placeholder="Search for Movies..."
