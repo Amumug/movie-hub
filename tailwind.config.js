@@ -44,12 +44,12 @@ module.exports = {
     },
   },
   plugins: [
-    plugin(function({ addUtilities }) {
-      addUtilities({
-        '.border-border': {
-          // Your declarations here
-        },
-      })
-    })
+    // plugin(function({ addUtilities }) {
+    //   addUtilities({
+    //     '.border-border': {
+    //       // Your declarations here
+    //     },
+    //   })
+    // })
   ]
 };
