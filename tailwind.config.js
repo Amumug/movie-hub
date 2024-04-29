@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+// const darkModePlugin = require('./tailwind.darkmode.cjs')
+
 module.exports = {
   darkMode: ["class"],
+  // presets: [darkModePlugin],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
