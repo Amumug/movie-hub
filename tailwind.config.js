@@ -55,6 +55,21 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      fontFamily:{
+        poppins: ["Poppins", "sans-serif"],
+        mavenPro: ["Maven Pro", "sans-serif"],
+        satoshiVariable: ["Satoshi Variable", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
+        inter: ["Inter", "sans-serif"]
+      },
+      screens:{
+        xs: "480px",
+        ss: "620px",
+        sm: "768px",
+        md: "1060px",
+        lg: "1200px",
+        xl: "1700px",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

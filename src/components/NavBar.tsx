@@ -1,13 +1,12 @@
 import { ModeToggle } from "./ModeToggle";
 import { ThemeProvider } from "./ThemeProvider";
-import MovieLogo from "../assets/Logo-Movie.svg"
+import logo from "../assets/Logo-Movie.svg";
 
 const NavBar = () => {
   return (
     <>
       <div>
-        <img src="../assets/Logo-Movie.svg" alt="" />
-
+        <img src={logo} alt="" />
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
           <ModeToggle />
         </ThemeProvider>
