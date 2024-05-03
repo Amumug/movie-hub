@@ -21,6 +21,11 @@ module.exports = {
     },
     extend: {
       colors: {
+        primarycolor: "#00040f",
+        secondarycolor: "#00f6ff",
+        dimWhite: "rgba(255, 255, 255, 0.7)",
+        dimBlue: "rgba(9, 151, 124, 0.1)",
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
