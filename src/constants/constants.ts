@@ -1,21 +1,14 @@
-import {
-  logo,
-  dune,
-  duneOthers,
-  roadHouse,
-  damsel,
-  theBeekeeper,
-} from "../assets/";
+
 
 export const navLinks = [
-  {
-    id: "logo",
-    title: "Moviewise",
-  },
-  {
-    id: "input",
-    title: "Find Your Next Favorite Movie",
-  },
+  // {
+  //   id: "logo",
+  //   title: "Moviewise",
+  // },
+  // {
+  //   id: "input",
+  //   title: "Find Your Next Favorite Movie",
+  // },
   {
     id: "home",
     title: "Home",
@@ -91,17 +84,17 @@ export const footerLinks = [
   export const socialMedia = [
     {
       id: "social-media-1",
-      icon: github,
+      // icon: github,
       link: "https://www.github.com/Amumug",
     },
     {
       id: "social-media-2",
-      icon: twitter,
+      // icon: twitter,
       link: "https://www.twitter.com/AmumuX33",
     },
     {
       id: "social-media-3",
-      icon: Instagram,
+      // icon: Instagram,
       link: "https://www.instagram.com/",
     },
   ];
