@@ -5,10 +5,10 @@ module.exports = {
   darkMode: ["class"],
   // presets: [darkModePlugin],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
@@ -60,14 +60,14 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
-      fontFamily:{
+      fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         mavenPro: ["Maven Pro", "sans-serif"],
         satoshiVariable: ["Satoshi Variable", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
-        inter: ["Inter", "sans-serif"]
+        inter: ["Inter", "sans-serif"],
       },
-      screens:{
+      screens: {
         xs: "480px",
         ss: "620px",
         sm: "768px",
@@ -97,4 +97,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
