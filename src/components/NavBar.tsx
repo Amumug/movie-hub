@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/Movie-logo-text.svg";
 import styles from "./style"
-import {navLinks, NavLink} from "../constants/constants.ts"
+import {navLinks} from "../constants/constants.ts"
 
 interface NavLink {
   id: string,
@@ -10,11 +10,11 @@ interface NavLink {
 const NavBar = () => {
   return (
     <>
-      <nav className="w-full felx py-6 justify-between items-center navbar">
+      <nav className="flex items-center justify-between w-full py-6 navbar">
           <img src={logo} alt="moviewise" className="w-[124px] h-[32px]" />
-          <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+          <ul className="items-center justify-end flex-1 hidden list-none sm:flex"> 
             {navLinks.map((nav, index) => (
-              <li key={nav.id} className={`font-manrope cursor-pointer text-white flex px-5 justify-between`}>
+				<li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white mr-10`}>
                 <a href={`#${nav.id}`}>
                   {nav.title}
                 </a>
@@ -27,3 +27,5 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+
