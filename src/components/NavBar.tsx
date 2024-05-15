@@ -14,7 +14,7 @@ const NavBar = () => {
           <img src={logo} alt="moviewise" className="w-[124px] h-[32px]" />
           <ul className="items-center justify-end flex-1 hidden list-none sm:flex"> 
             {navLinks.map((nav, index) => (
-				<li key={nav.id} className={`font-["Manrope", "sans-serif"] font-normal cursor-pointer text-[16px] text-white mr-10`}>
+				<li key={nav.id} className={`font-["Manrope", "sans-serif"] font-normal cursor-pointer text-[16px] text-zinc-400  hover:text-white mr-10`}>
                 <a href={`#${nav.id}`}>
                   {nav.title}
                 </a>
